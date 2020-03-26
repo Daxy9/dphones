@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $(document).on('click', '.sortDugme', klikSort);
 
   /* var x = $(".sortDugme");
@@ -312,6 +311,7 @@ function dodajuKorpu(){
   else{
     dodajPrviULocalStorage();
   }
+  obavestenje();
 
   function proizvodPostoji(){
     return proizvodi.filter(p => p.id == id).length;
@@ -341,6 +341,10 @@ function dodajuKorpu(){
       kolicina : 1
     };
     localStorage.setItem("proizvodi", JSON.stringify(proizvodi));
+  }
+  function obavestenje(){
+    $('#obavestenje').css({display: "block"});
+    setTimeout(() => $('#obavestenje').fadeOut(), 1200);
   }
 }
 function ocitstiKorpu(){
@@ -386,3 +390,4 @@ function getLocalStorage(){
 function inArray(array, element){
   return array.indexOf(element)!==-1;
 }
+

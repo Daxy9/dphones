@@ -1,14 +1,14 @@
 [
     {
         "href": "index.html",
-        "tekst": "Home"
+        "tekst": "Početna"
     },
     {
         "href": "contact.html",
-        "tekst": "Contact"
+        "tekst": "Kontakt"
     },
     {
         "href": "cart.html",
-        "tekst": "Cart"
+        "tekst": "Korpa"
     }
 ]

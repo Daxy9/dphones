@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var proizvodi = dohvatiKorpu();
-    if(proizvodi){
+    if(proizvodi.length){
         prikaziIzLS();
     }
     else {

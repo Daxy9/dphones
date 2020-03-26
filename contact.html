@@ -15,7 +15,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
-    
     <div class="container-fluid w-100 p-0 m-0 bg-dark">
         <div class="container">
            <nav class="navbar navbar-expand-md bg-dark sticky-top">
@@ -31,38 +30,55 @@
             </nav>  
         </div> 
     </div>
-
-    <div class="container-fluid" id="slajder">
-        <div id="obavestenje" class="bg-dark">
-            <h4 class="bojaNarandz text-center mt-4">Dodato u korpu</h4>
+    
+    <div class="container d-flex flex-column mb-4">
+        <h2 class="bojaNarandz text-center font-weight-bold">Postavite nam pitanje</h2>
+        <form action="" method="GET" name="forma" id="formaPitanje">
+            <div class="form-row">
+                <div class="from-group col-lg-6 col-md-12">
+                    <label for="ime">Ime</label>
+                    <input type = "text" id="ime" class="form-control" placeholder="Ime"/>
+                    <span id="loseIme"></span>
+                </div>
+                <div class="form-group col-lg-6 col-md-12">
+                    <label for="prezime">Prezime</label>
+                    <input type = "text" id="prezime" class="form-control" placeholder="Prezime"/>
+                    <span id="losePrezime"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email adresa</label>
+                <input type="text" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="brojTelefona">Broj Telefona</label>
+                <input type="text" class="form-control" id="brojTelefona" placeholder="06x/xxxxxx(x)">
+            </div>
+            <div class="form-group">
+                <label for="vasePitanje">Vaše pitanje</label>
+                <textarea class="form-control" id="vasePitanje" rows="3"></textarea>
+            </div>
+            <div class="form-row col-12">
+                <button type="button" class="btn btn-dark w-100" id="dugme">Pošаlji</button>
+            </div>
+        </form>
+    </div>
+    <div class="container-fluid p-0 bg-dark flex-row d-flex align-items-center">
+        <img src="assets/img/telefonlevo.jpg" class="img-fluid w-50" alt="telefon"/>
+        <div class="bojaNarandz w-50">
+            <h4 class="text-center font-weight-bold">Adresa</h4>
+            <h6 class="text-center">Ulica 223</h6>
+            <h4 class="text-center font-weight-bold mt-3">Radno vreme</h4>
+            <h6 class="text-center">Ponedeljak - petak: 08h - 20h</h6>
+            <h6 class="text-center">Subota: 09h - 16h</h6>
+            <h4 class="text-center font-weight-bold mt-3">Broj telefona</h4>
+            <h6 class="text-center">069/1234567</h6>
+            <h4 class="text-center font-weight-bold mt-3">Email</h4>
+            <h6 class="text-center">dphones@mail.com</h6>
         </div>
     </div>
 
-    <h1 id="naslov">Ponuda telefona</h1>
-    <div class="container d-flex justify-content-center">
-        <div class="row">
-        <div class="col-lg-9">
-            <div class="row" id="proizvodi">
-            </div> 
-        </div>
-        
-        <div class="col-lg-3" id="filter">
-            <div class="dropdown">
-                <button class="btn btn-dark dropdown-toggle btn-block marginaGore bojaNarandz" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  SORT
-                </button>
-                <div class="dropdown-menu w-100" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item sortDugme" type="button" data-sort="cena" data-order="asc">Ceni - rastuće</button>
-                    <button class="dropdown-item sortDugme" type="button" data-sort="cena" data-order="desc">Ceni - opadajuće</button>
-                    <button class="dropdown-item sortDugme" type="button" data-sort="ime" data-order="asc">Imenu - rastuće</button>
-                    <button class="dropdown-item sortDugme" type="button" data-sort="ime" data-order="desc">Imenu - opadajuće</button>
-                </div>
-              </div>
-        </div>   
-    </div>      
-</div>
-
-    <footer class="w-100 bg-dark text-white p-3 marginaGore">
+    <footer class="w-100 bg-dark text-white p-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
@@ -81,18 +97,14 @@
             </div>
         </div>
     </footer>
+
     
-    
-
-
-
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/contact.js" type="text/javascript"></script>
 </body>
 </html>
