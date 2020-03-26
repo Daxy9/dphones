@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bojaNarandz{
+    color: #ffae45;
+}
+#meni li a{
+    margin-right: 25px;
+    padding: 5px;
+}
+#navig li a:hover{
+    color: rgba(255,174,69, 0.7);
+    text-decoration: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,174,69, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: rgb(255,174,69);
+}
+#slajder{
+    background-image: url("../img/slajder.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#naslov{
+    margin-top:15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.centar{
+    text-align: center;
+}
+.telefonIme{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.brend{
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.marginaGore{
+    margin-top: 20px;
+}
+.fon{
+    width: 100%;
+    height: auto;
+}
+#aj{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+}
+#sort{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+}
+.fa{
+    margin-right: 15px;
+    color: #ffae45;
+}
+#doleFuter{
+    position: fixed;
+    bottom: 0px;
+}
+#korpaTabela{
+    color: #ffae45;
+}
+.table td{
+    vertical-align: middle;
+    text-align: center;
+}
+.table th{
+    text-align: center;
+}
+.table td i:hover{
+    cursor: pointer;
+}
+.filterDugme{
+    border-radius: 20px;
+}
+.checkbox-label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox-label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.mojCheck{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.mojCheck:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox-label input:checked ~ .mojCheck:after{
+    display: block;
+}
+.checkbox-label .mojCheck::after{
+    left: 5px;
+    width: 10px;
+    height: 15px;
+    border: solid #ffae45;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tekstic{
+    margin-left: 25px;
+}

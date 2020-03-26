@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "brend": "Huawei",
+        "name": "P30 lite",
+        "price": {
+            "sale": 0,
+            "cost": 210
+        },
+        "img": {
+            "href": "assets/img/p30lite.jpg",
+            "alt": "Huawei P30 lite"
+        },
+        "display": 6.15,
+        "resolution": "1080x2340 px",
+        "os":"Android",
+        "chipset":"HiSilicon Kirin 710 (12 nm)",
+        "cpu": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+        "ram": 4,
+        "rom": 128,
+        "cameras":{
+            "rear": "48MP + 8MP + 2MP",
+            "front": "32MP"
+        },
+        "battery": 3340
+    },
+    {
+        "id": 2,
+        "brend":"Huawei",
+        "name": "P30 Pro",
+        "price": {
+            "sale": 10,
+            "cost": 600
+        },
+        "img": {
+            "href": "assets/img/p30pro.jpg",
+            "alt": "Huawei P30 Pro"
+        },
+        "display": 6.47,
+        "resolution": "1080x2340 px",
+        "os":"Android",
+        "chipset":"HiSilicon Kirin 980 (7 nm)",
+        "cpu": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+        "ram": 8,
+        "rom": 128,
+        "cameras":{
+            "rear": "40MP + 8MP + 20MP + TOF",
+            "front": "32MP"
+        },
+        "battery": 4200
+    },
+    {
+        "id": 3,
+        "brend":"Huawei",
+        "name": "Mate 30 Pro",
+        "price": {
+            "sale": 0,
+            "cost": 850
+        },
+        "img": {
+            "href": "assets/img/mate30pro.jpg",
+            "alt": "Mate 30 Pro"
+        },
+        "display": 6.53,
+        "resolution": "1176x2400 px",
+        "os":"Android",
+        "chipset":"HiSilicon Kirin 990 (7 nm)",
+        "cpu": "Octa-core (2x2.86 GHz Cortex-A76 & 2x2.09 GHz Cortex-A76 & 4x1.86 GHz Cortex-A55)",
+        "ram": 8,
+        "rom": 128,
+        "cameras":{
+            "rear": "40MP + 8MP + 16MP + TOF",
+            "front": "32MP"
+        },
+        "battery": 4500
+    },
+    {
+        "id": 4,
+        "brend":"Samsung",
+        "name": "Galaxy S20",
+        "price": {
+            "sale": 0,
+            "cost": 900
+        },
+        "img": {
+            "href": "assets/img/s20.jpg",
+            "alt": ""
+        },
+        "display": 6.1,
+        "resolution": "1080x2340 px",
+        "os":"Android",
+        "chipset":"Exynos 990 (7 nm+)",
+        "cpu": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+        "ram": 12,
+        "rom": 128,
+        "cameras":{
+            "rear": "12MP + 64MP + 12MP",
+            "front": "10MP"
+        },
+        "battery": 4000
+    },
+    {
+        "id": 5,
+        "brend":"Samsung",
+        "name": "Galaxy S20 Ultra",
+        "price": {
+            "sale": 0,
+            "cost": 1400
+        },
+        "img": {
+            "href": "assets/img/s20ultra.jpg",
+            "alt": "Galaxy S20 ultra"
+        },
+        "display": 6.9,
+        "resolution": "3200x1440 px",
+        "os":"Android",
+        "chipset":"Exynos 990 (7 nm+)",
+        "cpu": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+        "ram": 12,
+        "rom": 256,
+        "cameras":{
+            "rear": "108MP + 48MP + 12MP + 0.3MP",
+            "front": "40MP"
+        },
+        "battery": 5000
+    },
+    {
+        "id": 6,
+        "brend":"Apple",
+        "name": "iPhone X",
+        "price": {
+            "sale": 5,
+            "cost": 455
+        },
+        "img": {
+            "href": "assets/img/iphonex.jpg",
+            "alt": "iPhone X"
+        },
+        "display": 5.8,
+        "resolution": "1125x2436 px",
+        "os":"ios",
+        "chipset":"Apple A11 Bionic (10 nm)",
+        "cpu": "Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral)",
+        "ram": 3,
+        "rom": 64,
+        "cameras":{
+            "rear": "12MP + 12MP",
+            "front": "7MP + SL 3D"
+        },
+        "battery": 2716
+    }
+]

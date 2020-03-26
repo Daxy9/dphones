@@ -1,0 +1,56 @@
+[
+    {
+        "name": "os",
+        "value": "Android",
+        "tekst": "Android",
+        "id": "os1"
+    },
+    {
+        "name": "os",
+        "value": "ios",
+        "tekst": "iOS",
+        "id": "os2"
+    },
+    {
+        "name": "ram",
+        "value": 3,
+        "tekst": "3GB",
+        "id": "ram3"
+    },
+    {
+        "name": "ram",
+        "value": 4,
+        "tekst": "4GB",
+        "id": "ram4"
+    },
+    {
+        "name": "ram",
+        "value": 8,
+        "tekst": "8GB",
+        "id": "ram8"
+    },
+    {
+        "name": "ram",
+        "value": 12,
+        "tekst": "12GB",
+        "id": "ram12"
+    },
+    {
+        "name": "rom",
+        "value": 64,
+        "tekst": "64GB",
+        "id": "rom64"
+    },
+    {
+        "name": "rom",
+        "value": 128,
+        "tekst": "128GB",
+        "id": "rom128"
+    },
+    {
+        "name": "rom",
+        "value": 256,
+        "tekst": "256GB",
+        "id": "rom256"
+    }
+]
