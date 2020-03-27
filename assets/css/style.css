@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .bojaNarandz{
     color: #ffae45;
@@ -23,15 +25,11 @@
     background-image: url("../img/slajder.jpg");
     background-position: center;
     background-size: cover;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 #naslov{
     margin-top:15px;
     margin-bottom: 15px;
-    text-align: center;
-}
-.centar{
     text-align: center;
 }
 .telefonIme{
@@ -157,9 +155,4 @@
     left: 20%;
     border: 1px solid #ffae45;
     display: none;
-}
-#trenutno{
-    width: 50%;
-    height: 200px;
-    background-color: cadetblue;
 }

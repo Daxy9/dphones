@@ -148,5 +148,80 @@
             "front": "7MP + SL 3D"
         },
         "battery": 2716
+    },
+    {
+        "id": 7,
+        "brend":"Samsung",
+        "name": "Galaxy A51",
+        "price": {
+            "sale": 0,
+            "cost": 300
+        },
+        "img": {
+            "href": "assets/img/a51.jpg",
+            "alt": "Galaxy A51"
+        },
+        "display": 6.5,
+        "resolution": "1080x2400 px",
+        "os":"Android",
+        "chipset":"Exynos 9611 (10nm)",
+        "cpu": "Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+        "ram": 4,
+        "rom": 128,
+        "cameras":{
+            "rear": "48MP + 12MP + 5MP + 5MP",
+            "front": "32MP"
+        },
+        "battery": 4000
+    },
+    {
+        "id": 8,
+        "brend":"Honor",
+        "name": "9x",
+        "price": {
+            "sale": 15,
+            "cost": 200
+        },
+        "img": {
+            "href": "assets/img/honor9x.png",
+            "alt": "Galaxy A51"
+        },
+        "display": 6.59,
+        "resolution": "1080x2400 px",
+        "os":"Android",
+        "chipset":"HiSilicon Kirin 710F (12 nm)",
+        "cpu": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+        "ram": 4,
+        "rom": 128,
+        "cameras":{
+            "rear": "48MP + 8MP + 2MP",
+            "front": "16MP"
+        },
+        "battery": 4000
+    },
+    {
+        "id": 9,
+        "brend":"Apple",
+        "name": "iPhone 11",
+        "price": {
+            "sale": 10,
+            "cost": 755
+        },
+        "img": {
+            "href": "assets/img/iphone11.jpg",
+            "alt": "iPhone11"
+        },
+        "display": 6.1,
+        "resolution": "1125x2436 px",
+        "os":"ios",
+        "chipset":"Apple A11 Bionic (10 nm)",
+        "cpu": "Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral)",
+        "ram": 3,
+        "rom": 64,
+        "cameras":{
+            "rear": "12MP + 12MP",
+            "front": "12MP + SL 3D"
+        },
+        "battery": 3110
     }
 ]

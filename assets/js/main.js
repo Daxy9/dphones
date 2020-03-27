@@ -1,11 +1,5 @@
 $(document).ready(function(){
   $(document).on('click', '.sortDugme', klikSort);
-
-  /* var x = $(".sortDugme");
-  x.click(function(){
-    console.log("a");
-  }); */
-  
   $.ajax({
     url: "assets/data/menu.json",
     method: "GET",
@@ -17,18 +11,6 @@ $(document).ready(function(){
       console.log(err);
     }
   });
-  /* $.ajax({
-    url: "assets/data/phones.json",
-    method: "GET",
-    dataType: "json",
-    success: function(data){
-      ispisiTelefon(data);
-    },
-    error: function(xhr, status, err){
-      console.log(err);
-    }
-  }); */
-
   prikaziTelefone();
 
   $.ajax({
@@ -380,7 +362,7 @@ function sortLS(kriterijumSort, redosled){
   setLocalStorage({ kriterijumSort: kriterijumSort, redosled: redosled});
 }
 
-/* GET/SET Funkcije + HELP*/
+/* GET/SET Funkcije*/
 function setLocalStorage(val){
   return localStorage.setItem('sort', JSON.stringify(val));
 }
